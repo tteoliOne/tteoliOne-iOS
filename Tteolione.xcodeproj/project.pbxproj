@@ -9,21 +9,19 @@
 /* Begin PBXBuildFile section */
 		723E45C92C626A56004B0E0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723E45C82C626A56004B0E0C /* AppDelegate.swift */; };
 		723E45CB2C626A56004B0E0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723E45CA2C626A56004B0E0C /* SceneDelegate.swift */; };
-		723E45CD2C626A56004B0E0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723E45CC2C626A56004B0E0C /* ViewController.swift */; };
-		723E45D02C626A56004B0E0C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 723E45CF2C626A56004B0E0C /* Base */; };
 		723E45D22C626A57004B0E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723E45D12C626A57004B0E0C /* Assets.xcassets */; };
 		723E45D52C626A57004B0E0C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 723E45D42C626A57004B0E0C /* Base */; };
+		723E45DD2C626AF4004B0E0C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 723E45DC2C626AF4004B0E0C /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		723E45C52C626A56004B0E0C /* Tteolione.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tteolione.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		723E45C82C626A56004B0E0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		723E45CA2C626A56004B0E0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		723E45CC2C626A56004B0E0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		723E45CF2C626A56004B0E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		723E45D12C626A57004B0E0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		723E45D42C626A57004B0E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		723E45D62C626A57004B0E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		723E45DC2C626AF4004B0E0C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +38,7 @@
 		723E45BC2C626A56004B0E0C = {
 			isa = PBXGroup;
 			children = (
+				723E45DC2C626AF4004B0E0C /* .gitignore */,
 				723E45C72C626A56004B0E0C /* Tteolione */,
 				723E45C62C626A56004B0E0C /* Products */,
 			);
@@ -58,8 +57,6 @@
 			children = (
 				723E45C82C626A56004B0E0C /* AppDelegate.swift */,
 				723E45CA2C626A56004B0E0C /* SceneDelegate.swift */,
-				723E45CC2C626A56004B0E0C /* ViewController.swift */,
-				723E45CE2C626A56004B0E0C /* Main.storyboard */,
 				723E45D12C626A57004B0E0C /* Assets.xcassets */,
 				723E45D32C626A57004B0E0C /* LaunchScreen.storyboard */,
 				723E45D62C626A57004B0E0C /* Info.plist */,
@@ -126,8 +123,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				723E45D22C626A57004B0E0C /* Assets.xcassets in Resources */,
+				723E45DD2C626AF4004B0E0C /* .gitignore in Resources */,
 				723E45D52C626A57004B0E0C /* Base in Resources */,
-				723E45D02C626A56004B0E0C /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +135,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				723E45CD2C626A56004B0E0C /* ViewController.swift in Sources */,
 				723E45C92C626A56004B0E0C /* AppDelegate.swift in Sources */,
 				723E45CB2C626A56004B0E0C /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		723E45CE2C626A56004B0E0C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				723E45CF2C626A56004B0E0C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		723E45D32C626A57004B0E0C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,9 +285,9 @@
 				INFOPLIST_FILE = Tteolione/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +295,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Jun.Tteolione;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,9 +317,9 @@
 				INFOPLIST_FILE = Tteolione/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +327,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Jun.Tteolione;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
